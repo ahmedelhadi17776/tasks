@@ -1,4 +1,3 @@
-// C++ implementation of the approach
 #include <iostream>
 #include <stack>
 
@@ -17,7 +16,9 @@ bool isPalindrome(string s)
 	}
 
 	if (length % 2 != 0) {
+		
 		i++;
+		
 	}
 
 	char ele;
